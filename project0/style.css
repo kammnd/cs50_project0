@@ -45,7 +45,7 @@ body form input[type=text]:hover {
   box-shadow: 0 0 5px #d0d0d0;
   outline: none;
 }
-body form input[type=submit] {
+body form input[type=submit]{
   padding: 10px 18px;
   margin: 5px;
   background-color: #ececec;
@@ -56,7 +56,7 @@ body form input[type=submit] {
   color: #5f5f5f;
   display: inline-block;
 }
-body form input[type=submit]:hover {
+body form input[type=submit]:hover{
   background-color: #fafafa;
   border: 1px solid;
   border-color: lightgray;

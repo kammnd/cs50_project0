@@ -10,13 +10,29 @@
             <a href="advanced.html">Advanced Search</a>
         </div>
 
+        <script type="text/javascript">
+            function OnSubmitForm()
+            {
+              if(document.pressed == 'Insert')
+              {
+               document.myform.action ="insert.html";
+              }
+              else if(document.pressed == 'Update')
+              {
+                document.myform.action ="update.html";
+              }
+              return true;
+            }
+            </script>
+            
+
         <div id="searchbar">
             <image src="google_logo.jpg" alt="Google logo" width="300">
-            <form action="https://google.com/search">
+            <form action="http://www.google.com/search?btnI=I">
                 <input type="text" name="q" >
                 <div class="buttons">
-                    <input type="submit" value="Google Search">
-                    <input type="submit" value="I'm Feeling Lucky">
+                    <input type="submit" value="Google Search" >
+                    <input type="submit" value="I'm Feeling Lucky" >
                 </div>
             </form>
         </div>
