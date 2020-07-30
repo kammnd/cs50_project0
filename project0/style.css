@@ -1,0 +1,65 @@
+#searchbar {
+  text-align: center;
+  margin: 8% auto;
+}
+
+.links {
+  text-align: right;
+  margin: 20px 25px;
+}
+.links a {
+  color: #333333;
+  margin: 0 10px;
+  font-family: sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+}
+.links a:hover {
+  text-decoration: underline;
+}
+
+.buttons {
+  display: block;
+  margin: 12px 10px;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: sans-serif Arial;
+}
+body form {
+  box-sizing: border-box;
+}
+body form input[type=text] {
+  width: 550px;
+  height: 33px;
+  padding: 6px 10px;
+  margin: 8px 1px;
+  border: 1px solid;
+  border-color: lightgray;
+  border-radius: 33px;
+  outline: none;
+  font-size: 20px;
+}
+body form input[type=text]:hover {
+  box-shadow: 0 0 5px #d0d0d0;
+  outline: none;
+}
+body form input[type=submit] {
+  padding: 10px 18px;
+  margin: 5px;
+  background-color: #ececec;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #ececec;
+  font-size: 14px;
+  color: #5f5f5f;
+  display: inline-block;
+}
+body form input[type=submit]:hover {
+  background-color: #fafafa;
+  border: 1px solid;
+  border-color: lightgray;
+}
+
+/*# sourceMappingURL=style.css.map */
