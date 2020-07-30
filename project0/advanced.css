@@ -9,22 +9,23 @@ body hr {
 }
 
 body input[type=text] {
-  width: 50%;
-  padding: 3px 5px;
+  width: 100%;
+  padding: 7px 10px;
   font-size: 13px;
   outline: none;
+  border: 1px solid lightgray;
 }
 
 body input[type=text]:focus {
-  width: 50%;
-  padding: 3px 5px;
+  outline: none;
+  padding: 7px 10px;
   font-size: 13px;
   border: 1px solid #4285F4;
 }
 
 body input[type="submit"] {
   padding: 5px 10px;
-  margin: 5px 48.8% 5px 5px;
+  margin: 5px -17px 5px 0px;
   background-color: #4285F4;
   border-radius: 3px;
   border: 1px solid;
@@ -33,6 +34,7 @@ body input[type="submit"] {
   font-weight: bold;
   color: white;
   float: right;
+  
 }
 body input[type="submit"]:hover {
   background-color: #4281ee;
@@ -79,10 +81,12 @@ image {
   display: grid;
   align-items: baseline;
   padding: 20px;
-  margin: 20px 21px 0px 21px;
+  margin: 20px 0px 0px 21px;
   grid-column-gap: 0px;
   grid-row-gap: 6px;
   grid-template-columns: 200px auto ;
+  width: 60%;
+
 }
 
 .grid-item {
