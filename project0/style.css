@@ -33,13 +33,13 @@ body form {
 body form input[type=text] {
   width: 550px;
   height: 33px;
-  padding: 6px 10px;
+  padding: 6px 20px;
   margin: 8px 1px;
   border: 1px solid;
   border-color: lightgray;
   border-radius: 33px;
   outline: none;
-  font-size: 20px;
+  font-size: 16px;
 }
 body form input[type=text]:hover {
   box-shadow: 0 0 5px #d0d0d0;
